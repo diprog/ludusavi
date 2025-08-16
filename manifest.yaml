@@ -1,9 +1,100 @@
-game:
-  JetBrains IDEs:
-    files:
-      - "%APPDATA%\\JetBrains\\*" 
-      - "%LOCALAPPDATA%\\JetBrains\\*"
-      - "%USERPROFILE%\\.PyCharm*\\config\\*"
-      - "%USERPROFILE%\\.WebStorm*\\config\\*"
-      - "%USERPROFILE%\\.IntelliJIdea*\\config\\*"
-      - "%USERPROFILE%\\.CLion*\\config\\*"
+JetBrains IDE Configs:
+  files:
+    <winAppData>/JetBrains:
+      when:
+        - os: windows
+      tags: [config]
+
+    <xdgConfig>/JetBrains:
+      when:
+        - os: linux
+      tags: [config]
+    <xdgData>/JetBrains:
+      when:
+        - os: linux
+      tags: [config]
+
+    <home>/.PyCharm*/config:
+      when:
+        - os: linux
+      tags: [config]
+    <home>/.IntelliJIdea*/config:
+      when:
+        - os: linux
+      tags: [config]
+    <home>/.WebStorm*/config:
+      when:
+        - os: linux
+      tags: [config]
+    <home>/.PhpStorm*/config:
+      when:
+        - os: linux
+      tags: [config]
+    <home>/.CLion*/config:
+      when:
+        - os: linux
+      tags: [config]
+    <home>/.GoLand*/config:
+      when:
+        - os: linux
+      tags: [config]
+    <home>/.Rider*/config:
+      when:
+        - os: linux
+      tags: [config]
+    <home>/.DataGrip*/config:
+      when:
+        - os: linux
+      tags: [config]
+    <home>/.RubyMine*/config:
+      when:
+        - os: linux
+      tags: [config]
+
+    <home>/Library/Preferences/JetBrains:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Application Support/JetBrains:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Preferences/PyCharm*:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Preferences/IntelliJIdea*:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Preferences/WebStorm*:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Preferences/PhpStorm*:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Preferences/CLion*:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Preferences/GoLand*:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Preferences/Rider*:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Preferences/DataGrip*:
+      when:
+        - os: mac
+      tags: [config]
+    <home>/Library/Preferences/RubyMine*:
+      when:
+        - os: mac
+      tags: [config]
+
+    <home>/.ideavimrc:
+      tags: [config]
