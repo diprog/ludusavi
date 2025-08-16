@@ -1,0 +1,9 @@
+game:
+  JetBrains IDEs:
+    files:
+      - "%APPDATA%\\JetBrains\\*" 
+      - "%LOCALAPPDATA%\\JetBrains\\*"
+      - "%USERPROFILE%\\.PyCharm*\\config\\*"
+      - "%USERPROFILE%\\.WebStorm*\\config\\*"
+      - "%USERPROFILE%\\.IntelliJIdea*\\config\\*"
+      - "%USERPROFILE%\\.CLion*\\config\\*"
